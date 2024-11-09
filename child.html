@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Men's Shirts Collection</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous"
+        >
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@4.4.0/fonts/remixicon.css" rel="stylesheet">
+        <link rel="stylesheet" href="./style/child.css">
+    </head>
+    <body>
+        <nav>
+            <div class="menu-icon">
+                <span class="fas fa-bars"></span>
+            </div>
+            <div onclick="refresh()" class="logo">
+                ClothSpot
+            </div>
+            <div class="nav-items">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="men.html">Men's</a>
+                </li>
+                <li>
+                    <a href="women.html">Women's</a>
+                </li>
+                <li>
+                    <a href="child.html">Kid's</a>
+                </li>
+                <li>
+                    <a href="cart.html">Cart
+                        <i class="ri-shopping-cart-line"></i>
+                    </a>
+                </li>
+            </div>
+            <div class="search-icon">
+                <span class="fas fa-search"></span>
+            </div>
+            <div class="cancel-icon">
+                <span class="fas fa-times"></span>
+            </div>
+            <form id="akgtdxcnm" action="#">
+                <input
+                    type="search"
+                    id="navinp"
+                    autocomplete="off"
+                    class="search-data"
+                    placeholder="Search Like Men,Women,Kid"
+                >
+                <button type="submit" id="navinpbtn" class="fas fa-search"></button>
+            </form>
+        </nav>
+        <div class="linesa">
+            <div class="dropdown custom-dropdown">
+                <button
+                    class="btn dropdown-toggle custom-btn"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                >
+                    <i class="ri-equalizer-line"></i>
+                    Filter by Color
+                </button>
+                <ul class="dropdown-menu custom-menu">
+                    <li>
+                        <a class="dropdown-item all" href="#">All</a>
+                        <div class="allc"></div>
+                    </li>
+                    <li>
+                        <a class="dropdown-item yellow" href="#">Yellow</a>
+                        <div class="yellowc"></div>
+                    </li>
+                    <li>
+                        <a class="dropdown-item orange" href="#">Orange</a>
+                        <div class="orangec"></div>
+                    </li>
+                    <li>
+                        <a class="dropdown-item blue" href="#">Blue</a>
+                        <div class="bluec"></div>
+                    </li>
+                    <li>
+                        <a class="dropdown-item green" href="#">Green</a>
+                        <div class="greenc"></div>
+                    </li>
+                </ul>
+            </div>
+            <h1 id="aoibn">Kid's Shirt Collection</h1>
+            <p></p>
+        </div>
+        <div class="cards" id="cards"></div>
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-section about">
+                    <h3>About Us</h3>
+                    <p>ClothSpot is a leading online clothing store offering a variety of apparel for men, women, and kids. Our goal is to provide high-quality fashion at affordable prices.</p>
+                    <p>&copy; 2024 ClothSpot. All rights reserved.</p>
+                </div>
+                <div class="footer-section customer-service">
+                    <h3>Customer Service</h3>
+                    <ul>
+                        <li>
+                            <a href="#">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="#">FAQs</a>
+                        </li>
+                        <li>
+                            <a href="#">Returns & Exchanges</a>
+                        </li>
+                        <li>
+                            <a href="#">Shipping Information</a>
+                        </li>
+                        <li>
+                            <a href="#">Track Order</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-section company">
+                    <h3>Company</h3>
+                    <ul>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Careers</a>
+                        </li>
+                        <li>
+                            <a href="#">Press</a>
+                        </li>
+                        <li>
+                            <a href="#">Affiliate Program</a>
+                        </li>
+                        <li>
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#">Terms & Conditions</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-section social">
+                    <h3>Stay Connected</h3>
+                    <p>Follow us on social media for exclusive deals and updates.</p>
+                    <div class="social-icons">
+                        <a href="#">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-pinterest"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section payment-methods">
+                    <h3>Payment Methods</h3>
+                    <p>We accept all major credit cards and secure payment options.</p>
+                    <div class="payment-icons">
+                        <i class="ri-visa-fill"></i>
+                        <i class="ri-bank-card-line"></i>
+                        <i class="ri-paypal-line"></i>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="./scripts/kid.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    </body>
+</html>
+<!-- HTML !-->

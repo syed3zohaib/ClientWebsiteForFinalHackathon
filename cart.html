@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@4.4.0/fonts/remixicon.css" rel="stylesheet">
+        <title>Your Shopping Cart</title>
+        <link rel="stylesheet" href="./style/cart.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <!-- Font Awesome -->
+    </head>
+    <body>
+        <nav>
+            <div class="menu-icon">
+                <span class="fas fa-bars"></span>
+            </div>
+            <div onclick="refresh()" class="logo">
+                ClothSpot
+            </div>
+            <div class="nav-items">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="men.html">Men's</a>
+                </li>
+                <li>
+                    <a href="women.html">Women's</a>
+                </li>
+                <li>
+                    <a href="child.html">Kid's</a>
+                </li>
+                <li>
+                    <a href="cart.html">Cart
+                        <i class="ri-shopping-cart-line"></i>
+                    </a>
+                </li>
+            </div>
+            <div class="search-icon">
+                <span class="fas fa-search"></span>
+            </div>
+            <div class="cancel-icon">
+                <span class="fas fa-times"></span>
+            </div>
+            <form action="#">
+                <input
+                    type="search"
+                    autocomplete="off"
+                    id="navinp"
+                    class="search-data"
+                    placeholder="Search Like Men,Women,Kid"
+                >
+                <button type="submit" id="navinpbtn" class="fas fa-search"></button>
+            </form>
+        </nav>
+        <div class="con">
+            <div class="cart-container">
+                <h1>Your Cart</h1>
+                <ul id="cart-items"></ul>
+                <div id="total" class="total"></div>
+                <button id="clear-cart" class="clear-cart-btn">Order</button>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-section about">
+                    <h3>About Us</h3>
+                    <p>ClothSpot is a leading online clothing store offering a variety of apparel for men, women, and kids. Our goal is to provide high-quality fashion at affordable prices.</p>
+                    <p>&copy; 2024 ClothSpot. All rights reserved.</p>
+                </div>
+                <div class="footer-section customer-service">
+                    <h3>Customer Service</h3>
+                    <ul>
+                        <li>
+                            <a href="#">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="#">FAQs</a>
+                        </li>
+                        <li>
+                            <a href="#">Returns & Exchanges</a>
+                        </li>
+                        <li>
+                            <a href="#">Shipping Information</a>
+                        </li>
+                        <li>
+                            <a href="#">Track Order</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-section company">
+                    <h3>Company</h3>
+                    <ul>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Careers</a>
+                        </li>
+                        <li>
+                            <a href="#">Press</a>
+                        </li>
+                        <li>
+                            <a href="#">Affiliate Program</a>
+                        </li>
+                        <li>
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#">Terms & Conditions</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-section social">
+                    <h3>Stay Connected</h3>
+                    <p>Follow us on social media for exclusive deals and updates.</p>
+                    <div class="social-icons">
+                        <a href="#">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-pinterest"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section payment-methods">
+                    <h3>Payment Methods</h3>
+                    <p>We accept all major credit cards and secure payment options.</p>
+                    <div class="payment-icons">
+                        <i class="ri-visa-fill"></i>
+                        <i class="ri-bank-card-line"></i>
+                        <i class="ri-paypal-line"></i>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="./scripts/cart.js"></script>
+    </body>
+</html>
