@@ -18,7 +18,7 @@ const womenShirts = [
       "A very soft shirt made from premium cotton, perfect for all-day comfort.",
       descriptionLength
     ),
-    imgUrl: ".././img/womenImg/a.webp",
+    imgUrl: "./img/womenImg/a.webp",
     stars:
       '<i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i>',
     col: "black",
@@ -30,7 +30,7 @@ const womenShirts = [
       "A beautifully designed shirt that stands out, ideal for casual and semi-formal occasions.",
       descriptionLength
     ),
-    imgUrl: ".././img/womenImg/b.webp",
+    imgUrl: "./img/womenImg/b.webp",
     stars:
       '<i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-half-line"></i>',
     col: "pink",
@@ -42,7 +42,7 @@ const womenShirts = [
       "This cotton shirt offers breathability and comfort, making it a must-have in your wardrobe.",
       descriptionLength
     ),
-    imgUrl: ".././img/womenImg/c.webp",
+    imgUrl: "./img/womenImg/c.webp",
     stars:
       '<i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i>',
     col: "pink",
@@ -54,7 +54,7 @@ const womenShirts = [
       "Featuring unique designs, this shirt is perfect for fashion-forward individuals.",
       descriptionLength
     ),
-    imgUrl: ".././img/womenImg/d.jpg",
+    imgUrl: "./img/womenImg/d.jpg",
     stars:
       '<i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-half-line"></i>',
     col: "white",
@@ -66,7 +66,7 @@ const womenShirts = [
       "A versatile casual shirt that pairs well with jeans or chinos for a relaxed look.",
       descriptionLength
     ),
-    imgUrl: ".././img/womenImg/e.webp",
+    imgUrl: "./img/womenImg/e.webp",
     stars:
       '<i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-half-line"></i>',
     col: "black",
@@ -78,7 +78,7 @@ const womenShirts = [
       "An elegant formal shirt tailored for business meetings and events.",
       descriptionLength
     ),
-    imgUrl: ".././img/womenImg/f.webp",
+    imgUrl: "./img/womenImg/f.webp",
     stars:
       '<i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i>',
     col: "purple",
@@ -91,7 +91,7 @@ const womenShirts = [
       "A classic checked shirt that adds a touch of style to your everyday outfits.",
       descriptionLength
     ),
-    imgUrl: ".././img/womenImg/g.webp",
+    imgUrl: "./img/womenImg/g.webp",
     stars:
       '<i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-half-line"></i>',
     col: "purple",
@@ -103,7 +103,7 @@ const womenShirts = [
       "A modern slim fit shirt that enhances your silhouette for a sharp look.",
       descriptionLength
     ),
-    imgUrl: ".././img/womenImg/h.webp",
+    imgUrl: "./img/womenImg/h.webp",
     stars:
       '<i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-half-line"></i>',
     col: "green",
@@ -115,7 +115,7 @@ const womenShirts = [
       "A modern slim fit shirt that enhances your silhouette for a sharp look.",
       descriptionLength
     ),
-    imgUrl: ".././img/womenImg/i.webp",
+    imgUrl: "./img/womenImg/i.webp",
     stars:
       '<i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-half-line"></i>',
     col: "green",
@@ -127,7 +127,7 @@ const womenShirts = [
       "A modern slim fit shirt that enhances your silhouette for a sharp look.",
       descriptionLength
     ),
-    imgUrl: ".././img/womenImg/j.webp",
+    imgUrl: "./img/womenImg/j.webp",
     stars:
       '<i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-half-line"></i>',
     col: "black",

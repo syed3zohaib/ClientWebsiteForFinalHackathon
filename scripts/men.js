@@ -15,7 +15,7 @@ const menShirts = [
       "A very soft shirt made from premium cotton, perfect for all-day comfort.",
       descriptionLength
     ),
-    imgUrl: ".././img/menImg/a.jpeg",
+    imgUrl: "./img/menImg/a.jpeg",
     stars:
       '<i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i>',
     col: "black",
@@ -27,7 +27,7 @@ const menShirts = [
       "A beautifully designed shirt that stands out, ideal for casual and semi-formal occasions.",
       descriptionLength
     ),
-    imgUrl: ".././img/menImg/b.jpeg",
+    imgUrl: "./img/menImg/b.jpeg",
     stars:
       '<i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-half-line"></i>',
     col: "white",
@@ -39,7 +39,7 @@ const menShirts = [
       "This cotton shirt offers breathability and comfort, making it a must-have in your wardrobe.",
       descriptionLength
     ),
-    imgUrl: ".././img/menImg/c.jpeg",
+    imgUrl: "./img/menImg/c.jpeg",
     stars:
       '<i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i>',
     col: "red",
@@ -51,7 +51,7 @@ const menShirts = [
       "Featuring unique designs, this shirt is perfect for fashion-forward individuals.",
       descriptionLength
     ),
-    imgUrl: ".././img/menImg/d.jpeg",
+    imgUrl: "./img/menImg/d.jpeg",
     stars:
       '<i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-half-line"></i>',
     col: "blue",
@@ -63,7 +63,7 @@ const menShirts = [
       "A versatile casual shirt that pairs well with jeans or chinos for a relaxed look.",
       descriptionLength
     ),
-    imgUrl: ".././img/menImg/e.jpeg",
+    imgUrl: "./img/menImg/e.jpeg",
     stars:
       '<i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-half-line"></i>',
     col: "red",
@@ -75,7 +75,7 @@ const menShirts = [
       "An elegant formal shirt tailored for business meetings and events.",
       descriptionLength
     ),
-    imgUrl: ".././img/menImg//f.webp",
+    imgUrl: "./img/menImg//f.webp",
     stars:
       '<i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i>',
     col: "white",
@@ -87,7 +87,7 @@ const menShirts = [
       "A classic checked shirt that adds a touch of style to your everyday outfits.",
       descriptionLength
     ),
-    imgUrl: ".././img/menImg//g.jpg",
+    imgUrl: "./img/menImg//g.jpg",
     stars:
       '<i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-half-line"></i>',
     col: "black",
@@ -99,7 +99,7 @@ const menShirts = [
       "A modern slim fit shirt that enhances your silhouette for a sharp look.",
       descriptionLength
     ),
-    imgUrl: ".././img/menImg//h.png",
+    imgUrl: "./img/menImg//h.png",
     stars:
       '<i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-half-line"></i>',
     col: "black",

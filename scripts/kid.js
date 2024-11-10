@@ -18,7 +18,7 @@ const kidShirts = [
       "This super soft cotton t-shirt keeps your little one comfy all day long.",
       descriptionLength
     ),
-    imgUrl: ".././img/childIMg/a.jpg",
+    imgUrl: "./img/childIMg/a.jpg",
     stars:
       '<i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i>',
     col: "green",
@@ -32,7 +32,7 @@ const kidShirts = [
     ),
     stars:
       '<i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-half-line"></i>',
-    imgUrl: ".././img/childIMg/bb.webp",
+    imgUrl: "./img/childIMg/bb.webp",
     col: "green",
   },
   {
@@ -42,7 +42,7 @@ const kidShirts = [
       "Keep your kid cool and comfy with this breathable cotton shirt.",
       descriptionLength
     ),
-    imgUrl: ".././img/childIMg/c.jpg",
+    imgUrl: "./img/childIMg/c.jpg",
     stars:
       '<i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i>',
     col: "orange",
@@ -54,7 +54,7 @@ const kidShirts = [
       "A fun graphic tee with cool designs that your child will love.",
       descriptionLength
     ),
-    imgUrl: ".././img/childIMg/d.jpg",
+    imgUrl: "./img/childIMg/d.jpg",
     stars:
       '<i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-half-line"></i>',
     col: "blue",
@@ -66,7 +66,7 @@ const kidShirts = [
       "Perfect for everyday adventures, this shirt is casual and comfy.",
       descriptionLength
     ),
-    imgUrl: ".././img/childIMg/e.webp",
+    imgUrl: "./img/childIMg/e.webp",
     stars:
       '<i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-half-line"></i>',
     col: "blue",
@@ -79,7 +79,7 @@ const kidShirts = [
       "For special occasions, this smart shirt gives your little one a dapper look.",
       descriptionLength
     ),
-    imgUrl: ".././img/childIMg/f.jpg",
+    imgUrl: "./img/childIMg/f.jpg",
     stars:
       '<i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i>',
     col: "yellow",
@@ -91,7 +91,7 @@ const kidShirts = [
       "This trendy checkered shirt adds style to your child's everyday outfits.",
       descriptionLength
     ),
-    imgUrl: ".././img/childIMg/f.webp",
+    imgUrl: "./img/childIMg/f.webp",
     stars:
       '<i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-half-line"></i>',
     col: "blue",
@@ -103,7 +103,7 @@ const kidShirts = [
       "A cool slim-fit shirt for your sporty little one, great for outings.",
       descriptionLength
     ),
-    imgUrl: ".././img/childIMg/g.webp",
+    imgUrl: "./img/childIMg/g.webp",
     stars:
       '<i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-half-line"></i>',
     col: "yellow",
