@@ -125,7 +125,9 @@ nav{
 background: #000;
 display: flex;
 width: 100%;
-user-select: none;
+user-select: none; position: fixed;
+  z-index: 99;
+  top: 0;
 flex-wrap: wrap;
 align-items: center;
 justify-content: space-between;
@@ -159,7 +161,9 @@ padding: 10px 0;
 transition: 0.35s;
 display: inline-block;
 }
-
+.linesa{
+  padding: 40px 0px;
+}
 nav .nav-items li a::after {
 content: '';
 position: absolute;

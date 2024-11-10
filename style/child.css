@@ -108,6 +108,8 @@ color: gold;
 
   #total {
       font-weight: bold;
+  }.linesa{
+    padding: 40px 0px;
   }
 
 
@@ -127,9 +129,11 @@ box-sizing: border-box;
 font-family: 'Montserrat', sans-serif;
 }
 
-nav{
+nav{ position: fixed;
+  top: 0;
 background: #000;
-display: flex;
+  z-index: 99;
+  display: flex;
 width: 100%;
 user-select: none;
 flex-wrap: wrap;
