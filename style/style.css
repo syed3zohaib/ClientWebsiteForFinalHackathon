@@ -402,6 +402,7 @@ nav .logo {
     width: 100%;
   }
   .home .right img {
+    padding-top:100px;
     width: 300px;
   }
   .home .left {
