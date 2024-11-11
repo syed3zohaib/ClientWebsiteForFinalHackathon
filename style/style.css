@@ -396,8 +396,8 @@ nav .logo {
     flex-direction: column-reverse;
   }
   .home .right {
-    padding-top:100px;
-    background-color:red;
+    padding-top:30px;
+    /* background-color:red; */
     width: 100%;
   }
   .home .left {
