@@ -4,14 +4,14 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://cdn.jsdelivr.net/npm/remixicon@4.4.0/fonts/remixicon.css" rel="stylesheet">
-        <title>Your Shopping Cart</title>
+        <title>Your Shopping Cart | ClothSpot</title>
         <link rel="stylesheet" href="./style/cart.css">
+        <link rel="shortcut icon" href="./img/boutique.png" type="image/x-icon">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-        <!-- Font Awesome -->
     </head>
     <body>
         <nav>
-            <div class="menu-icon">
+            <div class="menu-icon" onclick="toggleMenu()">
                 <span class="fas fa-bars"></span>
             </div>
             <div onclick="refresh()" class="logo">
@@ -31,18 +31,19 @@
                     <a href="child.html">Kid's</a>
                 </li>
                 <li>
-                    <a href="cart.html">Cart
+                    <a href="cart.html">
+                        Cart
                         <i class="ri-shopping-cart-line"></i>
                     </a>
                 </li>
             </div>
-            <div class="search-icon">
+            <div class="search-icon" onclick="showSearch()">
                 <span class="fas fa-search"></span>
             </div>
-            <div class="cancel-icon">
+            <div class="cancel-icon" onclick="closeMenu()">
                 <span class="fas fa-times"></span>
             </div>
-            <form action="#">
+            <form action="#" onsubmit="performSearch(event)">
                 <input
                     type="search"
                     autocomplete="off"
