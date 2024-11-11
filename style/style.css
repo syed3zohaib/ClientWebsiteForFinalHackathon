@@ -396,13 +396,13 @@ nav .logo {
     flex-direction: column-reverse;
   }
   .home .right {
+    padding-top:100px;
     width: 100%;
   }
   .home .left {
     width: 100%;
   }
   .home .right img {
-    padding-top:100px;
     width: 300px;
   }
   .home .left {
